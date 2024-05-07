@@ -1,9 +1,48 @@
 .header {
-  font-family: Metropolis;
-  font-size: 16px;
-  .nav {
-    font-size: 22px;
+  padding-top: 20px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+.header-wrapper-wright {
+  display: flex;
+  column-gap: 40px;
+}
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  flex-wrap: wrap;
+}
+.header-nav-item {
+}
+.header-nav-link {
+  font-family: var(--main-fonts);
+  font-weight: 500;
+  font-size: 14px;
+  color: #000;
+  transition: color 0.4s ease-in;
+  &:hover {
+    color: var(--accent);
   }
-  height: 200px;
-  background-color: red;
+}
+.header-btn {
+  border: 1px solid var(--accent);
+  border-radius: 23px;
+  padding: 12px 24px;
+  font-size: 14px;
+  transition: all 0.4s ease-in;
+  &:hover {
+    border: 1px solid var(--lightAccentBg);
+    color: var(--lightAccentBg);
+    background-color: var(--accent);
+  }
 }

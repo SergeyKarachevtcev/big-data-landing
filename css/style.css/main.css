@@ -126,7 +126,7 @@ legend {
   font-family: "Metropolis";
   src: url("../fonts/MetropolisMedium.woff2") format("woff2");
   font-display: swap;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 @font-face {
@@ -136,14 +136,73 @@ legend {
   font-weight: 800;
   font-style: normal;
 }
-.header {
-  font-family: Metropolis;
-  font-size: 16px;
-  height: 200px;
-  background-color: red;
+/* conteiner */
+.conteiner {
+  margin: 0 auto;
+  max-width: 990px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.header .nav {
-  font-size: 22px;
+
+/* body */
+body {
+  font-family: var(--main-fonts);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.header {
+  padding-top: 20px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+
+.header-wrapper-wright {
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  flex-wrap: wrap;
+}
+
+.header-nav-link {
+  font-family: var(--main-fonts);
+  font-weight: 500;
+  font-size: 14px;
+  color: #000;
+  transition: color 0.4s ease-in;
+}
+.header-nav-link:hover {
+  color: var(--accent);
+}
+
+.header-btn {
+  border: 1px solid var(--accent);
+  border-radius: 23px;
+  padding: 12px 24px;
+  font-size: 14px;
+  transition: all 0.4s ease-in;
+}
+.header-btn:hover {
+  border: 1px solid var(--lightAccentBg);
+  color: var(--lightAccentBg);
+  background-color: var(--accent);
 }
 
 /* footer */
