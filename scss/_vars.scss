@@ -1,0 +1,28 @@
+:root {
+  /* fonts */
+  --main-fonts: 'Metropolis', sans-serif;
+  --Metropolis-bold: 'Metropolis-bold', sans-serif;
+  /* color */
+  --accent: #722ed1;
+  --lightAccentBg: #f7f1ff;
+  --bgColor: #ffff;
+  --mainColor: #160637;
+  --light-textColor: #8989a2;
+}
+
+/* font face */
+@font-face {
+  font-family: 'Metropolis';
+  src: url('../fonts/MetropolisMedium.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis-bold';
+  src: url('../fonts/MetropolisBold.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
