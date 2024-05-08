@@ -1,0 +1,56 @@
+.adventages {
+  margin-bottom: 112px;
+}
+
+.adventages-section_info {
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.adventages_title {
+  font-family: var(--Metropolis-bold);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  text-align: center;
+  color: var(--mainColor);
+  margin-bottom: 24px;
+}
+.advantages_content {
+  font-family: var(--main-fonts);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--light-textColor);
+  margin-bottom: 24px;
+}
+.adventages-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 17px;
+}
+.adventages-wrapper-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  align-items: center;
+  width: 305px;
+}
+
+.adventages-wrapper-block_title {
+  font-family: var(--Metropolis-bold);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--mainColor);
+}
+.adventages-wrapper-block_content {
+  font-family: var(--main-fonts);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--light-textColor);
+}
