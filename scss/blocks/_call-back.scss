@@ -1,0 +1,107 @@
+.call-back-section {
+  margin-bottom: 120px;
+}
+
+.call-back-section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.call-back-section-left {
+  max-width: 430px;
+  display: flex;
+  flex-direction: column;
+}
+.call-back-section_title {
+  font-family: var(--Metropolis-bold);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  color: var(--mainColor);
+  margin-bottom: 35px;
+}
+.call-back-section_line {
+  background-image: url(/img/call-back/Trusted-by.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 24px;
+  margin-bottom: 50px;
+}
+.call-back-section-company_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  column-gap: 100px;
+  row-gap: 75px;
+  justify-items: center;
+}
+
+.call-back-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 16px;
+  box-shadow: 4px 4px 12px 0 #722ed1;
+  background: #fff;
+  border-radius: 8px;
+  padding: 32px 40px;
+  max-width: 428px;
+}
+.call-back-form_title {
+  font-family: var(--Metropolis-bold);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+  text-align: center;
+  color: var(--mainColor);
+}
+.call-back-form_button {
+  border-radius: 8px;
+  width: 100%;
+  font-family: var(--main-fonts);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;
+  background-color: var(--accent);
+  padding: 12px;
+}
+.call-back-form_input {
+  text-align: center;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  border-radius: 4px;
+  padding: 16px;
+  width: 100%;
+  font-family: var(--main-fonts);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--light-textColor);
+}
+.call-back-form_googleBtn {
+  background-image: url(/img/call-back/btn_google_signin_dark_normal_web@2x.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 48px;
+  width: 199px;
+  cursor: pointer;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--light-textColor);
+}
+.call-back-form_content {
+  font-family: var(--main-fonts);
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--light-textColor);
+  a {
+    color: var(--accent);
+    cursor: pointer;
+  }
+}

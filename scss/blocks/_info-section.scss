@@ -17,11 +17,7 @@
   flex-direction: column;
   row-gap: 25px;
 }
-.info-section_img {
-  display: block;
-  width: 399px;
-  height: 399px;
-}
+
 .info-section-wrapper-right {
   display: flex;
   flex-direction: column;
@@ -36,7 +32,7 @@
   color: var(--accent);
 }
 .info-section_content {
-  width: 475px;
+  max-width: 475px;
   font-family: var(--main-fonts);
   font-weight: 500;
   font-size: 16px;

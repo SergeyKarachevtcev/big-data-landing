@@ -1,5 +1,5 @@
-function sideMenu() {
-  console.log('sideMenu');
-}
+'use strict';
+
+function sideMenu() {}
 
 export default sideMenu;

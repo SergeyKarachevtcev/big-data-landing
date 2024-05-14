@@ -1,0 +1,149 @@
+:root {
+  /* fonts */
+  --main-fonts: 'Metropolis', sans-serif;
+  --Metropolis-bold: 'Metropolis-bold', sans-serif;
+  /* color */
+  --accent: #722ed1;
+  --lightAccentBg: #f7f1ff;
+  --bgColor: #ffff;
+  --mainColor: #160637;
+  --light-textColor: #8989a2;
+}
+
+//media-mobile
+.display-none {
+  display: none;
+}
+
+.header-mobile {
+  display: none;
+}
+@media (max-width: 1199px) {
+  /* adventafes*/
+}
+
+@media (max-width: 991px) {
+  /* adventafes*/
+  .info-section-wrapper {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  /* call-back-section */
+
+  .call-back-section-wrapper {
+    gap: 60px;
+    justify-content: center;
+  }
+  .call-back-section-company_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* hero */
+  .header-wrapper {
+    display: none;
+  }
+  .main-section-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+  }
+  /* reviews */
+  .tab {
+    gap: 40px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 575px) {
+  /* hero */
+  .header {
+    margin-bottom: 30px;
+  }
+  .main-section_title {
+    font-size: 35px;
+  }
+  .main-section_content {
+    font-size: 14px;
+  }
+  .main-section-left-btn-wrapper {
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  .main-section_start_btn {
+    text-align: center;
+    width: 100%;
+  }
+  .main-section_more_btn {
+    text-align: center;
+    width: 100%;
+  }
+  /* adventafes*/
+  .adventages_title {
+    font-size: 35px;
+  }
+  .advantages_content {
+    font-size: 14px;
+  }
+  .adventages-wrapper-block {
+    row-gap: 10px;
+  }
+  .adventages-wrapper-block_content {
+    font-size: 14px;
+  }
+  .adventages-wrapper {
+    gap: 25px;
+  }
+  .adventages {
+    margin-bottom: 30px;
+  }
+  /* info-section */
+  .info-section-collumn {
+    row-gap: 80px;
+  }
+  .main-section_info {
+    margin: 0 auto;
+  }
+  .info-section-wrapper-right {
+    row-gap: 15px;
+  }
+  .info-section-wrapper-left {
+    row-gap: 15px;
+  }
+  .info-section_title {
+    font-size: 30px;
+  }
+  .info-section_content {
+    font-size: 14px;
+  }
+  /* reviews */
+  .reviews-section {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-bottom: 30px;
+  }
+  .reviews-section_user {
+    margin-bottom: 30px;
+  }
+  .reviews-section_content {
+    margin-bottom: 20px;
+  }
+  .reviews-section_img {
+    margin-bottom: 20px;
+  }
+
+  /* call-back-section */
+}
+
+@media (max-width: 320px) {
+}
