@@ -29,7 +29,6 @@
   display: flex;
   align-items: center;
   column-gap: 40px;
-  flex-wrap: wrap;
 }
 .nav-hidden_wrapper {
   cursor: pointer;
@@ -86,7 +85,12 @@
     color: var(--accent);
   }
 }
+.header-nav-item {
+  width: max-content;
+}
+
 .header-nav-link {
+  max-width: 100%;
   display: flex;
   align-items: center;
   column-gap: 15px;

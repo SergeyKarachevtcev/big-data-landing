@@ -1,5 +1,7 @@
-import sideMenu from './modules/sideMenuBar';
-import tabs from './modules/tabs';
+'use strict';
 
-sideMenu();
+import tabs from './modules/tabs';
+import mobileMenu from './modules/mobileMenu';
+
 tabs();
+mobileMenu();

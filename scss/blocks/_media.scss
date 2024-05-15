@@ -1,23 +1,4 @@
-:root {
-  /* fonts */
-  --main-fonts: 'Metropolis', sans-serif;
-  --Metropolis-bold: 'Metropolis-bold', sans-serif;
-  /* color */
-  --accent: #722ed1;
-  --lightAccentBg: #f7f1ff;
-  --bgColor: #ffff;
-  --mainColor: #160637;
-  --light-textColor: #8989a2;
-}
-
 //media-mobile
-.display-none {
-  display: none;
-}
-
-.header-mobile {
-  display: none;
-}
 @media (max-width: 1199px) {
   /* adventafes*/
 }
@@ -50,6 +31,9 @@
   /* hero */
   .header-wrapper {
     display: none;
+  }
+  .header-mobile {
+    display: block;
   }
   .main-section-wrapper {
     display: flex;
@@ -113,6 +97,7 @@
   }
   .main-section_info {
     margin: 0 auto;
+    margin-bottom: 30px;
   }
   .info-section-wrapper-right {
     row-gap: 15px;

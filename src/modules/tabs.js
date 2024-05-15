@@ -1,3 +1,5 @@
+'use strict';
+
 function tabs() {
   const tabButtons = document.querySelectorAll('.tablink');
 
